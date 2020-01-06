@@ -10,7 +10,7 @@ const PROJECT = process.env.GCP_PROJECT;
 const DATASET_LOCATION = 'us-east4';
 const bigquery = new BigQuery();
 //const BOT_ACCESS_TOKEN = process.env.BOTTOKEN;
-const BOT_ACCESS_TOKEN = 'xoxp-43584204723-724804425124-768105564947-eeea72fa611c63d89262c03c50c3f6aa';
+const BOT_ACCESS_TOKEN = '';
 
 exports.notifySlack = async (data, context) => {
 
